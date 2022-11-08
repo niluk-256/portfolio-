@@ -1,10 +1,10 @@
 import React from "react"
 
-export function About() {
+export function Contact() {
   return (
-    <div id="about" className="w-full h-screen text-center">
+    <div id="contact" className="w-full h-screen text-center">
       <div className=" w-full h-full  flex justify-center items-center">
-        <div>About</div>
+        <div>Contact</div>
       </div>
     </div>
   )

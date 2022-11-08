@@ -25,7 +25,7 @@ export function Toppage() {
               sequence={[
                 "ALCHEMYLEARN ",
                 1000,
-                "Learning how to BUIDL WEB3",
+                "Learning How To BUIDL WEB3",
                 1000,
               ]}
               speed={10}

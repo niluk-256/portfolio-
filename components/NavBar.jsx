@@ -114,6 +114,7 @@ const Navbar = () => {
                   About
                 </li>
               </Link>
+
               <Link href="/#skills">
                 <li
                   onClick={() => setNav(false)}
@@ -128,6 +129,14 @@ const Navbar = () => {
                   className="py-4  hover:text-slate-500 text-sm "
                 >
                   Projects
+                </li>
+              </Link>
+              <Link href="/#achievements">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4  hover:text-slate-500 text-sm"
+                >
+                  Achievements
                 </li>
               </Link>
               <Link href="/#contact">
