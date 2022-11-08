@@ -20,7 +20,7 @@ export function Toppage() {
         <div>
           <div className="">
             <div className="font-semibold p-2 m-2 text-slate-500">
-              We All gonna make it
+              We all gonna make it
             </div>
             <TypeAnimation
               className="text-5xl font-bold leading-normal mt-0 mb-2 text-sky-800"
@@ -42,7 +42,7 @@ export function Toppage() {
               repeat={0}
             />
             <div className="font-semibold p-2 m-2 text-slate-600">
-              I'm a 19 year old self-taught developer who just loves to learn
+              I'm a 19 year old self-taught developer who just love to learn.
               WEB3 enthusiast
             </div>
           </div>

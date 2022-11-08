@@ -5,16 +5,26 @@ import aboutpic from "./assets/about.jpg"
 export function About() {
   return (
     <div id="about" className="w-full h-screen text-center">
-      <div className="  p-6 rounded-lg  w-full h-full ">
+      <div className="   rounded-lg  w-full h-full">
         <div
-          className={` w-full h-full  flex justify-center items-center flex-wrap shadow-2xl `}
+          className={` w-full h-full  flex justify-center items-center flex-wrap  `}
         >
           <div>
             <div className="text-5xl font-mono text-cyan-700 ">About</div>
             <div className="mt-6 ml-4 mr-4 font-semibold">
               Hello I'm 19 year old self taught developer. <br />
               WEB3 Entusiast <br />
-              Coding is my passion and I love it. <br />I love to learn about
+              During the pandemic in 2021,Staying alone inside my room , <br />
+              Oneday I came to know about Crypto when learning about trading and
+              investments. <br />I just wanted to make some extra money. But
+              when I started to <br />
+              study more I understood that this is not just trading not just
+              <br />
+              Cryptocurrency this is a evolutionay technology with massive
+              <br />
+              opportunities so I thought to become a developer and support the
+              adaptation of web3 space <br />
+              Coding is my passion . <br />I love to learn about
               web3,Cryptography and Smart Contract CTF <br />
               Studing about web3 at <br />
               <a
@@ -37,7 +47,7 @@ export function About() {
           <div>
             <Image
               src={aboutpic}
-              className=" h-52 w-52 ml-10 rounded-lg"
+              className=" h-52 w-52 ml-10 rounded-lg hover:scale-50 duration-300 "
               alt="/"
             />
           </div>
