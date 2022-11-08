@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: (theme) => ({
-        cat: "url('../public/background.png')",
+        // cat: "url('../public/background.png')",
+        cat: "url('../public/base.jpg')",
       }),
     },
   },
