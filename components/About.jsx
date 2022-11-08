@@ -13,17 +13,16 @@ export function About() {
             <div className="text-5xl font-mono text-cyan-700 ">About</div>
             <div className="mt-6 ml-4 mr-4 font-semibold">
               Hello I'm 19 year old self taught developer. <br />
-              WEB3 Entusiast <br />
               During the pandemic in 2021,Staying alone inside my room , <br />
               Oneday I came to know about Crypto when learning about trading and
               investments. <br />I just wanted to make some extra money. But
               when I started to <br />
               study more I understood that this is not just trading not just
               <br />
-              Cryptocurrency this is a evolutionay technology with massive
+              Cryptocurrency this is an evolutionay technology with massive
               <br />
               opportunities so I thought to become a developer and support the
-              adaptation of web3 space <br />
+              growth of web3 space <br />
               Coding is my passion . <br />I love to learn about
               web3,Cryptography and Smart Contract CTF <br />
               Studing about web3 at <br />
@@ -34,12 +33,19 @@ export function About() {
               >
                 @ALCHEMY
               </a>
-              <br />
-              <a href="https://university.alchemy.com/" target="_blank">
+              <a
+                href="https://university.alchemy.com/"
+                target="_blank"
+                className="text-blue-700"
+              >
                 @ALCHEMYLearn
               </a>
               <br />
-              <a href="https://learnweb3.io" target={"_blank"}>
+              <a
+                href="https://learnweb3.io"
+                target={"_blank"}
+                className="text-blue-700"
+              >
                 @LEARNWEB3DAO
               </a>
             </div>

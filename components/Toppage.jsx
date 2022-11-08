@@ -25,7 +25,11 @@ export function Toppage() {
             <TypeAnimation
               className="text-5xl font-bold leading-normal mt-0 mb-2 text-sky-800"
               sequence={[
-                "ALCHEMYLEARN ",
+                "FreeCodeCamp",
+                1000,
+                "ChainLink",
+                1000,
+                "ALCHEMY",
                 1000,
                 "Learning How To BUIDL WEB3",
                 1000,

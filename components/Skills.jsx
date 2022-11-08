@@ -15,7 +15,9 @@ export function Skills() {
           className={` w-full h-full  flex justify-center items-center flex-wrap shadow-2xl pb-3 `}
         >
           <div>
-            <div className="text-5xl font-mono text-cyan-700 ">Skills</div>
+            <div className="text-5xl font-mono text-cyan-700 mt-11 ">
+              Skills
+            </div>
             <div className="mt-10 text-10px font-mono text-slate-700 ">
               Technologies
             </div>
