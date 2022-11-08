@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { TypeAnimation } from "react-type-animation"
+
 export function Toppage() {
   const [ver, verfunc] = useState(false)
   useEffect(() => {

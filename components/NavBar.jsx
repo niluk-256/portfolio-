@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react"
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai"
 import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 import { BsFillPersonLinesFill } from "react-icons/bs"
+import { ConnectButton } from "@rainbow-me/rainbowkit"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -36,7 +37,12 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <h1 className="text-2xl font-mono text-bold">0xWAGMI</h1>
+        <div className="flex ">
+          <h1 className="text-2xl font-extrabold text-bold mr-4 mt-1">
+            0xNILUK
+          </h1>
+          <ConnectButton />
+        </div>
         <div>
           <ul className="hidden md:flex to-blue-600">
             <li className="ml-10  text-bold  text-sm uppercase hover:b">
