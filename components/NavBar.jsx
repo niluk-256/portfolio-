@@ -36,7 +36,7 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 absolute backdrop-blur-sm">
         <div className="flex ">
           <h1 className="text-2xl font-extrabold text-bold mr-4 mt-1">
             0xNILUK
