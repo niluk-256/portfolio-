@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <div>
       <Head>
-        <title>project</title>
+        <title>my-portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
@@ -33,8 +33,8 @@ const Home = () => {
           <Toppage />
           <About />
           <Skills />
-        </div>
-        <div className="bg-accent-dark bg-cover bg-cat">
+          {/* </div> */}
+          {/* <div className="bg-accent-dark bg-cover bg-cat"> */}
           <Projects />
           <Achievements />
           <Contact />

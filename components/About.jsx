@@ -6,9 +6,7 @@ export function About() {
   return (
     <div id="about" className="w-full h-screen text-center">
       <div className="   rounded-lg  w-full h-full">
-        <div
-          className={` w-full h-full  flex justify-center items-center flex-wrap  `}
-        >
+        <div className={`   flex justify-center items-center flex-wrap  `}>
           <div>
             <div className="text-5xl font-mono text-cyan-700 ">About</div>
             <div className="mt-6 ml-4 mr-4 font-semibold">
@@ -53,7 +51,7 @@ export function About() {
           <div>
             <Image
               src={aboutpic}
-              className=" h-52 w-52 ml-10 rounded-lg hover:scale-50 duration-300 "
+              className=" h-52 w-52 ml-10 mb-20 rounded-lg hover:scale-50 duration-300 "
               alt="/"
             />
           </div>
