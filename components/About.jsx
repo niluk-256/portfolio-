@@ -4,13 +4,11 @@ import aboutpic from "./assets/about.jpg"
 
 export function About() {
   return (
-    <div id="about" className="w-full h-screen text-center">
+    <div id="about" className="w-full lg-h-screen text-center p-2">
       <div>
-        <div
-          className={`   flex justify-center items-center flex-wrap h-screen `}
-        >
+        <div className="text-2xl font-mono text-cyan-700 ">About</div>
+        <div className="max-w-[1240px] mx-auto px-2 py-16  flex justify-center items-center flex-wrap">
           <div>
-            <div className="text-2xl font-semibold text-cyan-700 ">About</div>
             <div className="mt-6 ml-4 mr-4 font-semibold text-left ">
               Hello I'm 19 year old self taught developer. <br />
               During the pandemic in 2021,Staying alone inside my room , <br />
