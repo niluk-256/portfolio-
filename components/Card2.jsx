@@ -4,11 +4,11 @@ import Link from "next/link"
 
 export function Card2({ img, info, projectname }) {
   return (
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
-      <Image class="w-full" src={img} alt="projects" />
-      <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">{projectname}</div>
-        <p class="text-gray-700 text-base">{info}</p>
+    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+      <Image className="w-full" src={img} alt="projects" />
+      <div className="px-6 py-4">
+        <div className="font-bold text-xl mb-2">{projectname}</div>
+        <p className="text-gray-700 text-base">{info}</p>
       </div>
     </div>
   )
