@@ -14,9 +14,8 @@ export function Skills() {
         className={` max-w-[1240px] mx-auto flex flex-col justify-center h-full`}
       >
         <div>
-          <div className="text-2xl font-mono text-cyan-700 mt-11 ">Skills</div>
           <div className="mt-10 text-10px font-mono text-slate-700 ">
-            Technologies
+            Tech Stack
           </div>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
