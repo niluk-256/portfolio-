@@ -1,7 +1,9 @@
 import React from "react"
 import { Card } from "./card"
+import { Card2 } from "./Card2"
 import pass from "./assets/pass.gif"
 import pass1 from "./assets/all.gif"
+import x from "./assets/x.jpg"
 export function Achievements() {
   return (
     <div id="achievements" className="w-full h-screen text-center">
@@ -22,6 +24,16 @@ export function Achievements() {
             projectname="NFTS "
             projectUrl=""
           />
+        </div>
+        <div className="m-12 ">
+          <div className="scale-100">
+            <Card2
+              info="GCE O-Levels 2019"
+              img={x}
+              projectname="O/ls"
+              projectUrl=""
+            />
+          </div>
         </div>
       </div>
     </div>
