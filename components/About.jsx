@@ -20,7 +20,7 @@ export function About() {
               Cryptocurrency this is an evolutionary stage of Web with massive
               <br />
               opportunities so I thought to become a developer and support the
-              growth of web3 space <br />
+              growth of web3 space .<br />
               Coding is my passion . <br />I love to learn about
               web3,Cryptography and Smart Contract CTF <br />
               Studing about web3 at <br />

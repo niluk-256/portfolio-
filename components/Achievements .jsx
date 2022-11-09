@@ -20,7 +20,7 @@ export function Achievements() {
         <div className="m-12 ">
           <div className="scale-100">
             <Card2
-              info="GCE O-Levels 2019"
+              info="GCE O-Levels"
               img={x}
               projectname="O/ls"
               projectUrl=""
