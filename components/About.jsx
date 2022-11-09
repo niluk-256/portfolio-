@@ -5,11 +5,13 @@ import aboutpic from "./assets/about.jpg"
 export function About() {
   return (
     <div id="about" className="w-full h-screen text-center">
-      <div className="   rounded-lg  w-full h-full">
-        <div className={`   flex justify-center items-center flex-wrap  `}>
+      <div>
+        <div
+          className={`   flex justify-center items-center flex-wrap h-screen `}
+        >
           <div>
-            <div className="text-5xl font-mono text-cyan-700 ">About</div>
-            <div className="mt-6 ml-4 mr-4 font-semibold">
+            <div className="text-2xl font-semibold text-cyan-700 ">About</div>
+            <div className="mt-6 ml-4 mr-4 font-semibold text-left ">
               Hello I'm 19 year old self taught developer. <br />
               During the pandemic in 2021,Staying alone inside my room , <br />
               Oneday I came to know about Crypto when learning about trading and

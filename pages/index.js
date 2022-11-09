@@ -1,8 +1,7 @@
 import Head from "next/head"
 import { About } from "../components/About"
 import { Achievements } from "../components/Achievements "
-import { Background } from "../components/background"
-import { Contact } from "../components/Contact"
+
 import { Projects } from "../components/Projects"
 import { Skills } from "../components/Skills"
 import { Toppage } from "../components/Toppage"
@@ -28,16 +27,26 @@ const Home = () => {
       </Head>
       <div>
         <div
-          className={`bg-accent-dark bg-cover bg-cat ${cat ? "" : "blur-sm "}`}
+          className={`bg-accent-dark bg-cover bg-cat px-2 py-16 ${
+            cat ? "" : "blur-sm "
+          }`}
         >
-          <Toppage />
-          <About />
-          <Skills />
-          {/* </div> */}
-          {/* <div className="bg-accent-dark bg-cover bg-cat"> */}
-          <Projects />
-          <Achievements />
-          <Contact />
+          <div>
+            <Toppage />
+          </div>
+          <div>
+            <About />
+          </div>
+          <div>
+            <Skills />
+          </div>
+          <div>
+            <Projects />
+          </div>
+
+          <div>
+            <Achievements />
+          </div>
         </div>
       </div>
     </div>
