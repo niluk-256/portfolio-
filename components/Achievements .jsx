@@ -6,7 +6,7 @@ import pass1 from "./assets/all.gif"
 import x from "./assets/x.gif"
 export function Achievements() {
   return (
-    <div id="achievements" className="w-full h-screen text-center">
+    <div id="achievements" className="w-full h-full text-center">
       <div className="font-mono text-lg ">Achievements And KUDOS!🎉</div>
       <div className="max-w-[1240px] mx-auto px-2 py-16 flex justify-center flex-wrap items-center">
         <div className="m-12">
