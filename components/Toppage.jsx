@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { TypeAnimation } from "react-type-animation"
-
+import { BoxesPage } from "../pages/boxes"
 export function Toppage() {
   // const [ver, verfunc] = useState(false)
   // useEffect(() => {
@@ -18,12 +18,12 @@ export function Toppage() {
       <div className=" w-full h-full  flex justify-center items-center  sm:text-center md:text-center lg:text-center ">
         {/* <div className={ver ? "hidden " : ""}> */}
         <div>
-          <div className="">
+          <div className="z-10">
             <div className="font-semibold p-2 m-2 text-slate-500">
               We all gonna make it
             </div>
             <TypeAnimation
-              className="text-5xl font-bold leading-normal mt-0 mb-2 text-sky-800 cursor-pointer "
+              className="text-5xl font-bold leading-normal mt-0 mb-2 text-sky-800 cursor-pointer  "
               sequence={[
                 "FreeCodeCamp",
                 1000,
@@ -50,6 +50,7 @@ export function Toppage() {
               WEB3 enthusiast
             </div>
           </div>
+          <div className="">{/* <BoxesPage /> */}</div>
         </div>
       </div>
     </div>

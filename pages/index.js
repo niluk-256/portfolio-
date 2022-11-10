@@ -6,6 +6,7 @@ import { Projects } from "../components/Projects"
 import { Skills } from "../components/Skills"
 import { Toppage } from "../components/Toppage"
 import { useState, useEffect } from "react"
+import { BoxesPage } from "./boxes"
 
 const Home = () => {
   const [cat, catfunc] = useState(true)
@@ -25,10 +26,8 @@ const Home = () => {
         <title>my-portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        <div
-          className={`bg-accent-dark bg-cover bg-cat  ${cat ? "" : "blur-sm "}`}
-        >
+      <div className="isolate">
+        <div className={` bg-transparent  ${cat ? "" : "blur-sm "}`}>
           <div>
             <Toppage />
           </div>
@@ -45,6 +44,9 @@ const Home = () => {
           <div>
             <Achievements />
           </div>
+        </div>
+        <div>
+          <BoxesPage />
         </div>
       </div>
     </div>
