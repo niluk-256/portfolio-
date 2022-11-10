@@ -27,9 +27,7 @@ const Home = () => {
       </Head>
       <div>
         <div
-          className={`bg-accent-dark bg-cover bg-cat px-2 py-16 ${
-            cat ? "" : "blur-sm "
-          }`}
+          className={`bg-accent-dark bg-cover bg-cat  ${cat ? "" : "blur-sm "}`}
         >
           <div>
             <Toppage />

@@ -15,7 +15,7 @@ export function Toppage() {
   // }, [])
   return (
     <div id="home" className="w-full h-screen text-center">
-      <div className="max-w-[1240px] w-full h-full  flex justify-center items-center  sm:text-center md:text-center md:ml-24">
+      <div className=" w-full h-full  flex justify-center items-center  sm:text-center md:text-center lg:text-center ">
         {/* <div className={ver ? "hidden " : ""}> */}
         <div>
           <div className="">
@@ -23,7 +23,7 @@ export function Toppage() {
               We all gonna make it
             </div>
             <TypeAnimation
-              className="text-5xl font-bold leading-normal mt-0 mb-2 text-sky-800"
+              className="text-5xl font-bold leading-normal mt-0 mb-2 text-sky-800 cursor-pointer "
               sequence={[
                 "FreeCodeCamp",
                 1000,
