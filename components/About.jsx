@@ -25,7 +25,7 @@ export function About() {
               web3,Cryptography and Smart Contract CTF <br />
               Studing about web3 at <br />
               <a
-                href="http://alchemy.com"
+                href="https://alchemy.com/?r=jAwMzA5MTQzOTE4O"
                 target="_blank"
                 className="text-blue-700"
               >
