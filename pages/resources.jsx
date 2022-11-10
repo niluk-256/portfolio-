@@ -8,13 +8,11 @@ import img3 from "../components/assets/aa.PNG"
 export default function Resorces() {
   return (
     <div id="resources" className="w-full h-screen text-center">
-      <div className=" w-full h-full  flex justify-center items-center">
+      <div className="  flex justify-center items-center ">
         <div>
-          <div id="header"></div>
-          <div class="left"></div>
-          <div class="stuff">
+          <div className="">
             <br />
-            <h2 className="mt-96 font-mono ">Resources to learn about web3</h2>
+            <h2 className=" font-mono mt-28 ">Resources to learn about web3</h2>
 
             <hr />
             <br />
