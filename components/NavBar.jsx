@@ -60,6 +60,9 @@ const Navbar = () => {
             <li className="ml-10 text-bold  text-sm uppercase hover:border-b">
               <Link href="/#contact">Contact</Link>
             </li>
+            <li className="ml-10 text-bold  text-sm uppercase hover:border-b">
+              <Link href="/resources">LearnWeb3</Link>
+            </li>
           </ul>
           {/* Hamburger Icon */}
           <div
@@ -151,6 +154,14 @@ const Navbar = () => {
                   className="py-4  hover:text-slate-500 text-sm"
                 >
                   Contact
+                </li>
+              </Link>
+              <Link href="/resources">
+                <li
+                  onClick={() => setNav(false)}
+                  className="py-4  hover:text-slate-500 text-sm"
+                >
+                  LearnWeb3 Resources
                 </li>
               </Link>
             </ul>
