@@ -1,6 +1,6 @@
 import { Canvas } from "@react-three/fiber"
 import { OrbitControls } from "@react-three/drei"
-import { Box } from "../components/Box"
+import { Box } from "./Box"
 
 export function BoxesPage() {
   return (

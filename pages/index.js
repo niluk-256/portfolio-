@@ -6,7 +6,7 @@ import { Projects } from "../components/Projects"
 import { Skills } from "../components/Skills"
 import { Toppage } from "../components/Toppage"
 import { useState, useEffect } from "react"
-import { BoxesPage } from "./boxes"
+import { BoxesPage } from "../components/boxes"
 
 const Home = () => {
   const [cat, catfunc] = useState(true)

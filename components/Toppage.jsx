@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { TypeAnimation } from "react-type-animation"
-import { BoxesPage } from "../pages/boxes"
+// import { BoxesPage } from "./boxes"
 export function Toppage() {
   // const [ver, verfunc] = useState(false)
   // useEffect(() => {
@@ -50,7 +50,7 @@ export function Toppage() {
               WEB3 enthusiast
             </div>
           </div>
-          <div className="">{/* <BoxesPage /> */}</div>
+          {/* <div className=""><BoxesPage /></div> */}
         </div>
       </div>
     </div>
