@@ -4,7 +4,7 @@ import { Box } from "./Box"
 
 export function BoxesPage() {
   return (
-    <div className="w-full h-full  absolute top-0 left-0  right-0 bottom-0 opacity-50">
+    <div className="w-1/2 h-screen border-transparent  absolute top-0 left-0  opacity-50  ">
       <Canvas camera={{ position: [0, 0, 35] }}>
         <ambientLight intensity={2} />
         <pointLight position={[40, 40, 40]} />

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { TypeAnimation } from "react-type-animation"
+import { Scroll } from "./Scroll"
 // import { BoxesPage } from "./boxes"
 export function Toppage() {
   // const [ver, verfunc] = useState(false)
@@ -50,7 +51,7 @@ export function Toppage() {
               WEB3 enthusiast
             </div>
           </div>
-          {/* <div className=""><BoxesPage /></div> */}
+          <Scroll className="absolute top-8  " />
         </div>
       </div>
     </div>
