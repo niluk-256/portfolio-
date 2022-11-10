@@ -16,9 +16,6 @@ export default function Resume() {
             <div className="border-2 p-10">
               <p class="head">Bulding in progress</p>
               <ul>
-                <li>Drawing</li>
-
-                <li>Design</li>
                 <li>Programming</li>
               </ul>
               <p class="head">Skills</p>
