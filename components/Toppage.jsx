@@ -24,7 +24,7 @@ export function Toppage() {
               We all gonna make it
             </div>
             <TypeAnimation
-              className="text-5xl font-bold leading-normal mt-0 mb-2 text-sky-800 cursor-pointer  "
+              className="text-5xl font-nd leading-normal mt-0 mb-2 text-sky-800 cursor-pointer  "
               sequence={[
                 "FreeCodeCamp",
                 1000,
@@ -40,7 +40,7 @@ export function Toppage() {
               repeat={0}
             />
             <TypeAnimation
-              className="text-2xl font-mono leading-normal mt-0 mb-2 text-slate-800"
+              className=" font-vc text-lg leading-normal mt-0 mb-2 text-slate-800"
               sequence={["I'm NELUKA DULNINDU", 1000]}
               speed={5}
               wrapper="h2"
