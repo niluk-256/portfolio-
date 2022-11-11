@@ -12,6 +12,10 @@ module.exports = {
         cat: "url('../public/base.jpg')",
       }),
     },
+    fontFamily: {
+      nd: ["Bangers", "cursive"],
+      vc: ["Kotta One", "serif"],
+    },
   },
   plugins: [],
 }
