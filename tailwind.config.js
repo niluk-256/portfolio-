@@ -15,6 +15,7 @@ module.exports = {
     fontFamily: {
       nd: ["Bangers", "cursive"],
       vc: ["Kotta One", "serif"],
+      md: ["Ubuntu", "sans-serif"],
     },
   },
   plugins: [],
