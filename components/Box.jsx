@@ -8,7 +8,7 @@ export function Box(props) {
   const [hovered, setHover] = useState(false)
   const [active, setActive] = useState(false)
 
-  useFrame(() => (mesh.current.rotation.x = mesh.current.rotation.y += 0.03))
+  useFrame(() => (mesh.current.rotation.x = mesh.current.rotation.y += 0.02))
 
   return (
     <NativeBox

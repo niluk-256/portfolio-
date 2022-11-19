@@ -20,7 +20,7 @@ export function Card({ img, info, projectname, projectUrl = "" }) {
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
           #EthersJs
         </span>
-        <Link href={projectUrl}>
+        <Link href={projectUrl} target={"_blank"}>
           <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
             More Info
           </p>
