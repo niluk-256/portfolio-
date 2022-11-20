@@ -21,7 +21,7 @@ export function Projects() {
             info="Building my own metaverse with THREE JS"
             img={project3}
             projectname="FLAT EARTH"
-            projectUrl="loke-thatiyak.vercel.app"
+            projectUrl="https://loke-thatiyak.vercel.app"
           />
         </div>
         <div>
