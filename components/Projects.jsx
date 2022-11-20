@@ -1,6 +1,7 @@
 import React from "react"
 import { Card } from "./card"
 import project1 from "./assets/p1.gif"
+import project3 from "./assets/bproject.gif"
 import project2 from "./assets/p2.gif"
 export function Projects() {
   return (
@@ -9,10 +10,18 @@ export function Projects() {
       <div className=" max-w-[1240px] mx-auto px-2 py-16  flex justify-center items-center flex-wrap">
         <div className="m-6">
           <Card
-            info="Fundme project was created when studing Patrick Collins 32hrs course on solidity"
+            info="Fundme project was created when studing Patrick Collins 32hrs course on solidity one of my first projects"
             img={project1}
             projectname="FundMe"
-            projectUrl=""
+            projectUrl="https://github.com/niluk-256/FundME"
+          />
+        </div>
+        <div className="m-6">
+          <Card
+            info="Building my own metaverse with THREE JS"
+            img={project3}
+            projectname="FLAT EARTH"
+            projectUrl="loke-thatiyak.vercel.app"
           />
         </div>
         <div>
@@ -20,7 +29,7 @@ export function Projects() {
             info="Created when doing Alchemy Weekly challenges"
             img={project2}
             projectname="Dapp to  fetch NFTS"
-            projectUrl=""
+            projectUrl="https://github.com/niluk-256/AlchemyWeekProjects"
           />
         </div>
       </div>
