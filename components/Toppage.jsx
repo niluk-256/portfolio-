@@ -51,7 +51,6 @@ export function Toppage() {
               WEB3 enthusiast
             </div>
           </div>
-          <Scroll className="absolute top-8  " />
         </div>
       </div>
     </div>

@@ -5,6 +5,7 @@ import js from "./assets/javascript.png"
 import Solidity from "./assets/solidity.png"
 import Tailwind from "./assets/tailwind.png"
 import NextJS from "./assets/nextjs.png"
+import Three from "./assets/three.png"
 import Image from "next/image"
 
 export function Skills() {
@@ -18,6 +19,7 @@ export function Skills() {
           <div className="mt-10 text-10px font-mono text-slate-700 ">
             Technologies
           </div>
+          {/* HARDHAT */}
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
@@ -29,6 +31,7 @@ export function Skills() {
                 </div>
               </div>
             </div>
+            {/* ETHERS */}
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -39,7 +42,7 @@ export function Skills() {
                 </div>
               </div>
             </div>
-
+          {/* SOLIDITY */}
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -50,6 +53,7 @@ export function Skills() {
                 </div>
               </div>
             </div>
+            {/* NEXTJS */}
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -60,6 +64,7 @@ export function Skills() {
                 </div>
               </div>
             </div>
+            {/* TAILWIND */}
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
@@ -69,8 +74,21 @@ export function Skills() {
                   <h3>Tailwind</h3>
                 </div>
               </div>
+             </div>
+                 {/* THREE */}
+                 <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                <div className="m-auto">
+                  <Image src={Three} width="64px" height="64px" alt="/" />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>THREE Js</h3>
+                </div>
+              </div>
             </div>
 
+
+                  {/* JAVASCRIPT */}
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">

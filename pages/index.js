@@ -7,6 +7,7 @@ import { Skills } from "../components/Skills"
 import { Toppage } from "../components/Toppage"
 import { useState, useEffect } from "react"
 import { BoxesPage } from "../components/boxes"
+import MyPC from "../components/Computer"
 
 const Home = () => {
   const [cat, catfunc] = useState(true)
@@ -46,7 +47,8 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <BoxesPage />
+          {/* <BoxesPage /> */}
+          <MyPC />
         </div>
       </div>
     </div>
