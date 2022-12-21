@@ -15,7 +15,7 @@ export function Toppage() {
   //   window.addEventListener("scroll", vard)
   // }, [])
   return (
-    <div id="home" className="w-full h-screen text-center">
+    <div id="home" className="w-full h-screen text-center ">
       <div className=" w-full h-full  flex justify-center items-center  sm:text-center md:text-center lg:text-center ">
         {/* <div className={ver ? "hidden " : ""}> */}
         <div>
@@ -33,6 +33,8 @@ export function Toppage() {
                 "ALCHEMY",
                 1000,
                 "Learning How To BUIDL WEB3",
+                1000,
+                "WAGMI",
                 1000,
               ]}
               speed={10}
